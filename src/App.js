@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="container lg:w-2/3 border p-3 mt-6 shadow-lg ring-1 ring-slate-50 rounded-md">
+      <div className="container lg:w-3/4 border p-3 mt-6 shadow-lg ring-1 ring-slate-50 rounded-md">
         <Routers />
       </div>
     </>

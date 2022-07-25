@@ -1,5 +1,5 @@
 import { errorType, loadingType, successType } from "./constants";
-export const myState = (state = {error:"",loading:false,data:[]}, { type, payload }) => {
+export const myState = (state = {error:"",loading:false,users:[],comments:[],posts:[]}, { type, payload }) => {
   switch (type) {
     case errorType:
       return payload;
