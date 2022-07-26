@@ -42,7 +42,7 @@ export const searchComments = (text) => async (dispatch, getState) => {
           loading: false,
           comments: [
             ...data.filter(
-              (item, index) =>
+              (item) =>
                 item.name.includes(text) || item.body.includes(text)
             )
           ],
